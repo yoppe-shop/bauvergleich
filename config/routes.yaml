@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+app_landing_page:
+    path: /
+    controller: App\Controller\LandingPage\LandingPageController::generateStartPage
