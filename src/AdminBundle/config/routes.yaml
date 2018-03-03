@@ -1,0 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+admin_bundle:
+    path: /test/
+    controller: App\AdminBundle\Controller\AdminController::testAdmin

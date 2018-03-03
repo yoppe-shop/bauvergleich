@@ -1,0 +1,7 @@
+landing_page:
+    path: /
+    controller: App\Controller\LandingPageController::generateStartPage
+
+landing_test_page:
+    path: /test
+    controller: App\Controller\LandingPageController::testPage
