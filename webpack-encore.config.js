@@ -3,11 +3,12 @@ var webpack = require('webpack');
 
 Encore
     // the project directory where compiled assets will be stored
-    .setOutputPath('public/js/')
+    .setOutputPath('public/build/')
     // the public path used by the web server to access the previous directory
-    .setPublicPath('/js')
+    .setPublicPath('/build')
     
     .addEntry('app', './assets/js/app.js')
+    .addEntry('main', './assets/css/app.scss')
 
     .enableVueLoader()
     .enableSassLoader()
