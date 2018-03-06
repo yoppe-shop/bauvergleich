@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -13,6 +14,14 @@ class LandingPageController extends Controller
             '<html><body>Startseite</body></html>'
         );
         */
+        /*
+        $pdo = new \PDO('mysql:host=localhost;dbname=hausvergleich', 'hv', '4K_-fD7qPx');
+        $sql = "SELECT * FROM test";
+        foreach ($pdo->query($sql) as $row) {
+        echo $row['name']."<br />";
+        echo $row['street']."<br />";
+        echo $row['zip']."<br /><br />";
+        }*/
         return $this->render('startPage.html.twig', [
         ]);
     }
