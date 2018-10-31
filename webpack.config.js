@@ -4,7 +4,7 @@
 // npm run build:prod — –env.appname „meineAnwendung“ –env.test “../testFolder”
 
 var Encore = require('@symfony/webpack-encore');
-
+const webpack = require('webpack');
 Encore
     // the project directory where compiled assets will be stored
     .setOutputPath('public/build/')
@@ -25,9 +25,22 @@ Encore
 
     // uncomment if you use Sass/SCSS files
     .enableSassLoader()
-    .enableVueLoader()
+    // .enableVueLoader()
+    .configureBabel(function(babelConfig) {
+        // add additional presets
+        babelConfig.presets.push('es2017');
+
+        // no plugins are added by default, but you can add some
+        // babelConfig.plugins.push('styled-jsx/babel');
+    })
     // uncomment for legacy applications that require $/jQuery as a global variable
     // .autoProvidejQuery()
 ;
+
+// if (Encore.isProduction()) {
+//    Encore.addPlugin(new webpack.optimize.UglifyJsPlugin({
+//        compress: {warnings: false}
+//    }))
+//}
 
 module.exports = Encore.getWebpackConfig();
