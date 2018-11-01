@@ -15,13 +15,12 @@ Encore
     //    css: 'css/[name]-[contenthash].css',
     //    js: 'js/[name]-[chunkhash].js'
     //})
-    .enableSourceMaps(!Encore.isProduction())
+    //.enableSourceMaps(!Encore.isProduction())
     // uncomment to create hashed filenames (e.g. app.abc123.css)
     // .enableVersioning(Encore.isProduction())
 
-    // uncomment to define the assets of the project
-    .addEntry('js/app', './assets/js/app.js')
-    .addStyleEntry('css/app', './assets/css/app.scss')
+    .addEntry('js', './assets/js/input.jsx')
+    .addStyleEntry('css/app', './assets/css/main.scss')
 
     // uncomment if you use Sass/SCSS files
     .enableSassLoader()
