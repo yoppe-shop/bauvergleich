@@ -22,7 +22,9 @@ Encore
     .configureBabel(function(babelConfig) {
         // add additional presets
         babelConfig.presets.push('es2017');
-
+        babelConfig.presets.push('env');
+        babelConfig.presets.push('stage-0');
+        babelConfig.presets.push('react');
         // no plugins are added by default, but you can add some
         // babelConfig.plugins.push('styled-jsx/babel');
     })
