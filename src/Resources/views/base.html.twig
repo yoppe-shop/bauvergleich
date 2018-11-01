@@ -5,11 +5,14 @@
         <title>{% block title %}Bauvergleich.com{% endblock %}</title>
         <link rel="stylesheet" href="{{ asset('build/css/main.css') }}">
         {% block stylesheets %}{% endblock %}
-        <script src=""></script>
-        <script src="{{ asset('build/js/input.js') }}" type="text/javascript"></script>
+        <script src="https://github.com/facebook/react/releases/download/v16.0.0/react.production.min.js"     type="text/javascript"></script>
+        <script src="https://github.com/facebook/react/releases/download/v16.0.0/react-dom.production.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.js"                             type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.6/react-redux.js"                 type="text/javascript"></script>
     </head>
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        <script src="{{ asset('build/js/input.js') }}" type="text/javascript"></script>
     </body>
 </html>
