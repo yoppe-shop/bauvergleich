@@ -19,12 +19,6 @@ Encore
     // uncomment to create hashed filenames (e.g. app.abc123.css)
     // .enableVersioning(Encore.isProduction())
 
-    .addEntry('js', './assets/js/input.jsx')
-    .addStyleEntry('css/app', './assets/css/main.scss')
-
-    // uncomment if you use Sass/SCSS files
-    .enableSassLoader()
-    // .enableVueLoader()
     .configureBabel(function(babelConfig) {
         // add additional presets
         babelConfig.presets.push('es2017');
@@ -32,6 +26,13 @@ Encore
         // no plugins are added by default, but you can add some
         // babelConfig.plugins.push('styled-jsx/babel');
     })
+    .enableReactPreset()
+    .addEntry('js/input', './assets/js/input.jsx')
+    .addStyleEntry('css/main', './assets/css/main.scss')
+
+    // uncomment if you use Sass/SCSS files
+    .enableSassLoader()
+    // .enableVueLoader()
     // uncomment for legacy applications that require $/jQuery as a global variable
     // .autoProvidejQuery()
 ;

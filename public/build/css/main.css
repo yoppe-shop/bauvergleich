@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #cc0000;
+}
