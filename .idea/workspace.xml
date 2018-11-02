@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe89f688-fc0d-4bf6-ab78-c58b4e36d0b9" name="Default Changelist" comment="Inserted C24 Profi's Encore webpack file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="66" />
-          <entry key="jsx" value="189" />
+          <entry key="jsx" value="429" />
           <entry key="php" value="27" />
           <entry key="twig" value="99" />
           <entry key="txt" value="43" />
@@ -80,7 +78,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSX Harmony" value="189" />
+          <entry key="JSX Harmony" value="429" />
           <entry key="JavaScript" value="66" />
           <entry key="PHP" value="27" />
           <entry key="PLAIN_TEXT" value="43" />
@@ -164,8 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/app.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -224,9 +222,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="348" />
-    <option name="y" value="28" />
-    <option name="width" value="1342" />
+    <option name="x" value="715" />
+    <option name="y" value="48" />
+    <option name="width" value="1350" />
     <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
@@ -335,12 +333,12 @@
       <workItem from="1540835923720" duration="1935000" />
       <workItem from="1540896314753" duration="1823000" />
       <workItem from="1540973633629" duration="3883000" />
-      <workItem from="1541064243606" duration="13463000" />
+      <workItem from="1541064243606" duration="16422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28150000" />
+    <option name="totallyTimeSpent" value="31109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,10 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="28" width="1342" height="1043" extended-state="0" />
+    <frame x="715" y="48" width="1350" height="1043" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900794" visible="true" weight="0.28939158" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49900794" visible="true" weight="0.22093023" />
       <window_info id="Structure" order="1" sideWeight="0.50099206" side_tool="true" weight="0.17857143" />
       <window_info id="Favorites" order="2" sideWeight="0.50099206" side_tool="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -487,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
