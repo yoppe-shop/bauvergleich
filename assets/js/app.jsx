@@ -23,7 +23,7 @@ class App extends Component {
             isClicked: true,
             numClicked: newNum
         });
-    }
+    };
 
     render() {
         const {test} = this.props;

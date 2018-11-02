@@ -70,7 +70,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="66" />
-          <entry key="jsx" value="578" />
+          <entry key="jsx" value="579" />
           <entry key="php" value="27" />
           <entry key="twig" value="99" />
           <entry key="txt" value="43" />
@@ -78,7 +78,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSX Harmony" value="578" />
+          <entry key="JSX Harmony" value="579" />
           <entry key="JavaScript" value="66" />
           <entry key="PHP" value="27" />
           <entry key="PLAIN_TEXT" value="43" />
@@ -162,8 +162,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/app.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="500">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -333,12 +333,12 @@
       <workItem from="1540835923720" duration="1935000" />
       <workItem from="1540896314753" duration="1823000" />
       <workItem from="1540973633629" duration="3883000" />
-      <workItem from="1541064243606" duration="17733000" />
+      <workItem from="1541064243606" duration="17887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32420000" />
+    <option name="totallyTimeSpent" value="32574000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -485,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="500">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
