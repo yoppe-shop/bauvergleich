@@ -11,20 +11,23 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isClicked: false
+            isClicked: false,
+            numClicked: 0
         };
     }
 
     handleClick = e => {
         e.preventDefault();
+        const newNum = this.state.numClicked + 1;
         this.setState({
-            isClicked: true
+            isClicked: true,
+            numClicked: newNum
         });
-    };
+    }
 
     render() {
         const {test} = this.props;
-        const {isClicked} = this.state;
+        const {isClicked, numClicked} = this.state;
 
         return (
             <div>
@@ -34,7 +37,7 @@ class App extends Component {
                 </a>
                 <div>
                 { isClicked &&
-                    <div>Es wurde geklickt!</div>
+                    <div>Es wurde {numClicked} mal geklickt!</div>
                 }
                 </div>
             </div>
