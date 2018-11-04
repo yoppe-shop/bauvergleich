@@ -29,7 +29,7 @@ Encore
         // babelConfig.plugins.push('styled-jsx/babel');
     })
     .enableReactPreset()
-    .addEntry('js/input', './assets/js/input.jsx')
+    .addEntry('js/input', './assets/js/index.jsx')
     .addStyleEntry('css/main', './assets/css/main.scss')
 
     // uncomment if you use Sass/SCSS files

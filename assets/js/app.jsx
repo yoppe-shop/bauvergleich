@@ -1,48 +1,22 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import {connect} from 'react-redux';
-import {PropTypes} from 'prop-types';
+import React, {Component} from "react";
+import {render} from "react-dom";
+import List from "./list/list.jsx";
+import Form from "./form/form";
 
 class App extends Component {
-    static propTypes = {
-        test: PropTypes.string.isRequired
-    };
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            isClicked: false,
-            numClicked: 0
-        };
-    }
-
-    handleClick = e => {
-        e.preventDefault();
-        const newNum = this.state.numClicked + 1;
-        this.setState({
-            isClicked: true,
-            numClicked: newNum
-        });
-    };
 
     render() {
-        const {test} = this.props;
-        const {isClicked, numClicked} = this.state;
-
-        return (
-            <div>
-                <div>Hallo, wie gehts euch? {test}</div>
-                <a href="#" onClick={this.handleClick}>
-                Click me
-                </a>
-                <div>
-                { isClicked &&
-                    <div>Es wurde {numClicked} mal geklickt!</div>
-                }
-                </div>
+        return <div className="row mt-5">
+            <div className="col-md-4 offset-md-1">
+                <h2>Articles</h2>
+                <List/>
             </div>
-        );
-
+            <div className="col-md-4 offset-md-1">
+                <h2>Add a new article</h2>
+                <Form />
+            </div>
+        </div>
     }
 }
+
 export default App;
