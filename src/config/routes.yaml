@@ -2,6 +2,10 @@ landing_page:
     path: /
     controller: App\Controller\LandingPageController::generateStartPage
 
+create_form:
+    path: /new
+    controller: App\Controller\LandingPageController::new
+
 landing_test_page:
     path: /test
     controller: App\Controller\LandingPageController::testPage

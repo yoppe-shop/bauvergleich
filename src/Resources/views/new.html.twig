@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+    <form name="form" method="post">
+        <div id="form">
+            <div>
+                <label for="form_task" class="required">Task</label>
+                <input type="text" id="form_task" name="form[task]" required="required" />
+            </div>
+            <div>
+                <label for="form_dueDate" class="required">Due date</label>
+                <input type="text" id="form_dueDate" name="form[dueDate]" required="required" />
+            </div>
+            <div>
+                <button type="submit" id="form_save" name="form[save]">Create Task</button>
+            </div>
+            <!--input type="hidden" id="form__token" name="form[_token]" value="fmIpT-ywzgIWRoPkTEZ2J2bJlbzni0KNHwNn9DUrKPQ" /-->
+        </div>
+    </form>
+{% endblock %}
